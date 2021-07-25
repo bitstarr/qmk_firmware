@@ -1,0 +1,4 @@
+#pragma once
+
+#define UNICODE_SELECTED_MODES UC_WINC, UC_WIN, UC_LNX, UC_OSX
+#define UNICODE_CYCLE_PERSIST false
