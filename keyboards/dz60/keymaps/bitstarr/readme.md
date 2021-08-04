@@ -1,13 +1,13 @@
 # Personal Layout of [bitstarr](https://github.com/bitstarr)
 
-I use an US ANSI Layout and set the OS to the US Keyboard. Since I'm german, i need to use some special characters once in a while - that's what the UNI and UNI2 Layers are for. Under Windows we have to rely on [WinCompose](https://github.com/samhocevar/wincompose) to work as intended.
+I use an US ANSI Layout and set the OS to the US Keyboard. Since I'm german, I need to use some special characters once in a while - that's what the UNI and UNI2 Layers are for. Under Windows we have to rely on [WinCompose](https://github.com/samhocevar/wincompose) to work as intended.
 
     qmk compile dz60:bitstarr
 
 ## 0 Qwerty
 ```
 ,-----------------------------------------------------------------------------------------.
-|  ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |  Del    |
+|  ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |  Bcsp   |
 |-----------------------------------------------------------------------------------------+
 |  Tab   |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   \    |
 |-----------------------------------------------------------------------------------------+
@@ -29,7 +29,7 @@ ADV Layer
 |-----------------------------------------------------------------------------------------+
 |         |  ←  |  ↓  |  →  |     |     |     |  ←  |  ↓  |  →  |  ⇞  |  ⇟  |    Enter    |
 |-----------------------------------------------------------------------------------------+
-|  Shift   |  ⏮  |  ⏯  |  ⏭  |  🔉  |  🔇  |  🔊  |  |  |  Ins  |  Del  |  Shift    |
+|  Shift   |  ⏮  |  ⏯  |  ⏭  |  🔉  |  🔇  |  🔊  |    |    |  Ins  |  Del  |  Shift    |
 |-----------------------------------------------------------------------------------------+
 | Ctrl |       |  Alt  |              Space                |       |       |      |  Ctrl |
 `-----------------------------------------------------------------------------------------'
