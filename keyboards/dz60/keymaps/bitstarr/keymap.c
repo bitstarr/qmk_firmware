@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	),
 	[_UNI] = LAYOUT_60_ansi(
 	    KC_NO, KC_NO, KC_NO, KC_NO, UC(L'§'), KC_NO, UC(L'°'), KC_NO, KC_NO, KC_NO, KC_NO, UC(L'–'), KC_NO, KC_NO,
-	    KC_NO, KC_NO, KC_NO, UC(L'€'), KC_NO, KC_NO, KC_NO, UC(L'ü'), KC_NO, UC(L'ö'), UC(L'„'), UC(L'“'), UC(L'”'), KC_NO,
+	    KC_NO, KC_NO, KC_NO, UC(L'€'), KC_NO, KC_NO, KC_NO, UC(L'ü'), UC(L'ï'), UC(L'ö'), UC(L'„'), UC(L'“'), UC(L'”'), KC_NO,
 	    MO(_UNI2), UC(L'ä'), UC(L'ß'), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, UC(L'’'), KC_NO,
 	    MO(_UNI2), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, UC(L'…'), KC_NO, MO(_UNI2),
 	    KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO, UC_MOD
