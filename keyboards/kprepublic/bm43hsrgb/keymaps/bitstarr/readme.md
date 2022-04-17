@@ -2,7 +2,7 @@
 
 I use an US ANSI Layout and set the OS to the US Keyboard. Since I'm german, I need to use some special characters once in a while - that's what the UNI and UNI2 Layers are for. Under Windows we have to rely on [WinCompose](https://github.com/samhocevar/wincompose) to work as intended.
 
-    qmk compile bm43hsrgb:bitstarr
+    qmk compile -kb kprepublic/bm43hsrgb -km bitstarr
 
 ## 0 Qwerty
 ```
@@ -21,12 +21,11 @@ I use an US ANSI Layout and set the OS to the US Keyboard. Since I'm german, I n
 ```
 EXT Layer
 ,----------------------------------------------------------------------------.
+|   1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  O  |   -   |   +   |
 |----------------------------------------------------------------------------+
-|  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |  F7 |  F8 |  F9 |  F10 |  F11  |  F12  |
+|  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |  F7 |  F8 |  F9 |  F10 |  Enter        |
 |----------------------------------------------------------------------------+
-|   1    |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  O  |  Enter      |
-|----------------------------------------------------------------------------+
-|  Shift         |  `  |  -  |  +  |     |     |  ;  |  '  |  [  |  ]  |  \  |
+|  Shift         |  F11 |  F12 |    |    |  `  |  ;  |  '  |  [  |  ]  |  \  |
 |----------------------------------------------------------------------------+
 | Ctrl | Win | Alt |  Space         |                |     |     |    | Ctrl |
 `----------------------------------------------------------------------------'
