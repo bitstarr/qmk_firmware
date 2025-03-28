@@ -2,7 +2,9 @@
 
 I use an US ANSI Layout and set the OS to the US Keyboard. Since I'm german, I need to use some special characters once in a while - that's what the UNI and UNI2 Layers are for. Under Windows we have to rely on [WinCompose](https://github.com/samhocevar/wincompose) to work as intended.
 
-    qmk compile dz60:bitstarr
+Use the fork https://github.com/lizhenmingdirk/qmk_firmware since qwertykeys has some issues with GPL.
+
+    qmk compile neo/neo60:bitstarr
 
 ## 0 Qwerty
 ```
